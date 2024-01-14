@@ -32,4 +32,13 @@ func TestDay1(t *testing.T) {
 			t.Errorf("expected 281 got %d ", got)
 		}
 	})
+
+	t.Run("Test Part 2 Solve", func(t *testing.T) {
+		input := utils.GetAoCInputFile("input.txt")
+		got := Part2(input)
+
+		if got != 55413 {
+			t.Errorf("expected 281 got %d ", got)
+		}
+	})
 }
