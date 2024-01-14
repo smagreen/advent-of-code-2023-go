@@ -38,7 +38,7 @@ func TestDay1(t *testing.T) {
 		got := Part2(input)
 
 		if got != 55413 {
-			t.Errorf("expected 281 got %d ", got)
+			t.Errorf("expected 55413 got %d ", got)
 		}
 	})
 }
